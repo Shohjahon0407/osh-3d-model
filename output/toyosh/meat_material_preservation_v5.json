@@ -1,0 +1,10 @@
+{
+  "source": "archive/v4/toyosh.glb",
+  "target": "toyosh.glb",
+  "meat_maps_byte_identical": true,
+  "sha256": {
+    "cooked_meat_4k_normal": "c482e5c46366988b2449b5dd9bf2c214c9068e6192c627e1f1b2651a7ebb6668",
+    "cooked_meat_4k_basecolor": "537f88c8d148445c865a3dcc724e30bc316e33097c628b13d5cad7ba6e286a6d",
+    "cooked_meat_4k_orm": "b0e1edb73754b0c2fc46a254e43ef1b1533b5d79119ad46e386876e788f24011"
+  }
+}

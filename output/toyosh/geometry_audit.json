@@ -1,0 +1,80 @@
+{
+  "01_Handpainted_Porcelain_Lagan": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.0
+  },
+  "08_Chickpeas_Raisins_and_Cumin": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.022582272067666054
+  },
+  "05_Slow_Cooked_Meat_Pieces": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.02553689293563366
+  },
+  "06_Torn_Meat_Fibers": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.030247708782553673
+  },
+  "07_Gelatinous_Fat_Seams": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.03260393440723419
+  },
+  "02_Rice_Interior": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.006199997384101152
+  },
+  "04_Braised_Yellow_and_Orange_Carrots": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.011113042943179607
+  },
+  "03_Individual_Long_Grain_Rice": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.008112047798931599
+  },
+  "10_Rice_Gap_Fill": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.00872277282178402
+  },
+  "11_Additional_Cooked_Meat": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.03384675830602646
+  },
+  "12_Additional_Meat_Fibers": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.03460584580898285
+  },
+  "13_Additional_Fat": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.03941763564944267
+  },
+  "09_Additional_Surface_Rice": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.00879906676709652
+  }
+}

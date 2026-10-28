@@ -1,0 +1,20 @@
+/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+[10/27/26 18:19:28] INFO     Processing request of type            server.py:720
+                             CallToolRequest                                    
+[10/27/26 18:19:31] INFO     Processing request of type            server.py:720
+                             ListToolsRequest                                   
+{
+  "status": "ok",
+  "result": {
+    "scene": "ToyOsh",
+    "file": "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/toyosh.blend",
+    "asset_objects": 10,
+    "original_scene_objects": [
+      "Cube",
+      "Light",
+      "Camera"
+    ]
+  },
+  "stdout": "Info: Saved as \"toyosh.blend\"\n"
+}

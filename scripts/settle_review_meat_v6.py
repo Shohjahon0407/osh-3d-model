@@ -1,0 +1,53 @@
+import sys
+sys.path.insert(0,'/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts')
+from food_v4_utils import *
+win=bpy.data.window_managers[0].windows[0];scene=bpy.data.scenes['ToyOsh_Review_v6'];win.scene=scene
+asset=bpy.data.collections['ToyOsh_v6_Asset'];report=json.loads((OUT/'review_v6.json').read_text())
+body=bpy.data.objects['v6_05_Braised_Meat_Chunks'];fib=bpy.data.objects['v6_06_Separated_Muscle_Fibres'];fat=bpy.data.objects['v6_07_Soft_Fat_Pockets']
+bp=components(body);fp=components(fib);ap=components(fat)
+assert len(bp)==32 and len(fp)==388 and len(ap)==24
+food=bvh_objects([o for o in asset.objects if o.get('food_class')!=40]);rootv=[];rootf=[];roots=None;fatindex=0;contacts=[]
+for gi,ids in enumerate(bp):
+    ci=report['contacts'][gi]['clump'];center=sum((body.data.vertices[j].co for j in ids),Vector())/len(ids)
+    # A mixture of thicker braised chunks and flatter torn slices, not uniform patties.
+    zscale=1.48 if ci%4 else 1.06;xyscale=1.035
+    members=[(body,ids)]+[(fib,part) for part in fp[gi*11:(gi+1)*11]]
+    if ci<24:members.append((fat,ap[fatindex]));fatindex+=1
+    for ob,part in members:
+        for j in part:
+            p=ob.data.vertices[j].co-center
+            p.x*=xyscale;p.y*=xyscale;p.z*=zscale
+            ob.data.vertices[j].co=center+p
+    root=bvh_subset(body,ids);points=[body.data.vertices[j].co for j in ids];offsets=[]
+    for x in np.linspace(min(p.x for p in points)+.0001,max(p.x for p in points)-.0001,13):
+        for y in np.linspace(min(p.y for p in points)+.0001,max(p.y for p in points)-.0001,11):
+            hit=root.ray_cast(Vector((float(x),float(y),-.1)),Vector((0,0,1)))[0]
+            if hit is None:continue
+            height=z_hit(food,float(x),float(y));previous=z_hit(roots,float(x),float(y)) if roots else None
+            h=max(v for v in [height,previous] if v is not None);offsets.append(h-hit.z)
+    lift=max(offsets)-.00065
+    for ob,part in members:
+        for j in part:ob.data.vertices[j].co.z+=lift
+    contacts.append({'clump':ci,'contacts':sum(abs(v-lift)<.0011 for v in offsets),'embedding_m':.00065,'vertical_scale':zscale})
+    offset=len(rootv);lookup={j:offset+k for k,j in enumerate(ids)};idset=set(ids)
+    rootv.extend(tuple(body.data.vertices[j].co) for j in ids)
+    rootf.extend(tuple(lookup[j] for j in p.vertices) for p in body.data.polygons if p.vertices[0] in idset)
+    roots=BVHTree.FromPolygons(rootv,rootf,all_triangles=False)
+for part in fp[352:]:
+    pts=[fib.data.vertices[j].co for j in part];c=sum(pts,Vector())/len(pts)
+    h=z_hit(food,c.x,c.y);r=z_hit(roots,c.x,c.y)
+    if r is not None:h=max(h,r)
+    dz=h-min(p.z for p in pts)-.0002
+    for j in part:fib.data.vertices[j].co.z+=dz
+for ob in [body,fib,fat]:ob.data.update()
+report['contacts']=contacts;report['meat_silhouette']='24 plump irregular chunks and 8 flatter torn slices, supported as cohesive groups'
+report['changes']=[s.replace('New directionally aligned 4K albedo, micro-normal and roughness maps without photographic highlights','New directed 4K surface maps blended with retained cooked-tissue albedo') for s in report['changes']]
+(OUT/'review_v6.json').write_text(json.dumps(report,indent=2))
+with bpy.context.temp_override(window=win):exec(compile((ROOT/'scripts/audit_review_v6.py').read_text(),'<review audit>','exec'))
+from mathutils import Vector
+for area in win.screen.areas:
+    if area.type=='VIEW_3D':
+        space=area.spaces.active;space.region_3d.view_location=(0,0,.040);space.region_3d.view_distance=.38
+        space.region_3d.view_rotation=(Vector((0,0,.04))-Vector((.25,-.38,.12))).to_track_quat('-Z','Y')
+        area.tag_redraw()
+result={'refinement':'Varied chunky and torn silhouettes, supported from below','triangles':349340,'render_created':False}

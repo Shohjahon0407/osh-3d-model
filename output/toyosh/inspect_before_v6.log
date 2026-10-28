@@ -1,0 +1,53 @@
+/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+[10/27/26 22:46:17] INFO     Processing request of type            server.py:720
+                             CallToolRequest                                    
+Error executing tool execute_blender_code: Cannot connect to Blender at 127.0.0.1:9876. Ensure Blender is running with the MCP addon enabled and the server started.
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/mcp_run.py", line 31, in <module>
+  |     asyncio.run(main())
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/mcp_run.py", line 17, in main
+  |     async with stdio_client(params) as (reader, writer):
+  |   File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 182, in stdio_client
+  |     async with (
+  |   File "/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 189, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/mcp_run.py", line 18, in main
+    |     async with ClientSession(reader, writer) as session:
+    |   File "/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/mcp_run.py", line 24, in main
+      |     payload = json.loads(block.text)
+      |               ^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+      |     return _default_decoder.decode(s)
+      |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+      |     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+      |     raise JSONDecodeError("Expecting value", s, err.value) from None
+      | json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+      +------------------------------------

@@ -1,0 +1,10 @@
+00:01.307  blend            | Read blend: "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/archive/v4/toyosh.blend"
+COVERAGE [{"view": "top", "exposed_core_rays": 76, "food_rays": 7255, "core_exposure_fraction": 0.01047553411440386}, {"view": "angle", "exposed_core_rays": 38, "food_rays": 6224, "core_exposure_fraction": 0.006105398457583547}, {"view": "front", "exposed_core_rays": 14, "food_rays": 3351, "core_exposure_fraction": 0.0041778573560131305}, {"view": "back", "exposed_core_rays": 18, "food_rays": 3324, "core_exposure_fraction": 0.005415162454873646}, {"view": "left", "exposed_core_rays": 19, "food_rays": 3248, "core_exposure_fraction": 0.005849753694581281}, {"view": "right", "exposed_core_rays": 12, "food_rays": 3229, "core_exposure_fraction": 0.0037163208423660575}]
+Traceback (most recent call last):
+  File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/audit_meat_quantity_v5.py", line 30, in <module>
+    assert max(v['core_exposure_fraction'] for v in coverage)<.005
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

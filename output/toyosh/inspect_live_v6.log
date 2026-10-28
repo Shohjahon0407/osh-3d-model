@@ -1,0 +1,418 @@
+/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+[10/27/26 22:49:17] INFO     Processing request of type            server.py:720
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:720
+                             ListToolsRequest                                   
+{
+  "status": "ok",
+  "result": {
+    "file": "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/toyosh.blend",
+    "scenes": {
+      "Scene": 3,
+      "Scene.001": 0,
+      "ToyOsh": 27
+    },
+    "objects": [
+      {
+        "name": "01_Handpainted_Porcelain_Lagan",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 2816,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "01_Handpainted_Porcelain_Lagan.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 3072,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "02_Rice_Interior",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 882,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "02_Rice_Interior.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 882,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "03_Individual_Long_Grain_Rice",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 130000,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "03_Individual_Long_Grain_Rice.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 214500,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "04_Braised_Yellow_and_Orange_Carrots",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 4320,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "04_Braised_Yellow_and_Orange_Carrots.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 4320,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "05_Slow_Cooked_Meat_Pieces",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 7272,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "05_Slow_Cooked_Meat_Pieces.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 7272,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "06_Torn_Meat_Fibers",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 1920,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "06_Torn_Meat_Fibers.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 1920,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "07_Gelatinous_Fat_Seams",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 694,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "07_Gelatinous_Fat_Seams.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 1097,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "08_Chickpeas_Raisins_and_Cumin",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 1378,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "08_Chickpeas_Raisins_and_Cumin.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 2279,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "09_Additional_Surface_Rice",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 36000,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "09_Additional_Surface_Rice.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 45672,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "10_Rice_Gap_Fill",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh_Asset"
+        ],
+        "vertices": 10000,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "10_Rice_Gap_Fill.001",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 16500,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "11_Additional_Cooked_Meat",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 4984,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "12_Additional_Meat_Fibers",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 960,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "13_Additional_Fat",
+        "type": "MESH",
+        "collections": [
+          "ToyOsh"
+        ],
+        "vertices": 1097,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "Camera",
+        "type": "CAMERA",
+        "collections": [
+          "Collection"
+        ],
+        "vertices": 0,
+        "location": [
+          7.358891487121582,
+          -6.925790786743164,
+          4.958309173583984
+        ]
+      },
+      {
+        "name": "Cube",
+        "type": "MESH",
+        "collections": [
+          "Collection"
+        ],
+        "vertices": 8,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "Fill_Softbox",
+        "type": "LIGHT",
+        "collections": [
+          "ToyOsh_Studio"
+        ],
+        "vertices": 0,
+        "location": [
+          0.25,
+          0.07999999821186066,
+          0.2800000011920929
+        ]
+      },
+      {
+        "name": "Key_Large_Softbox",
+        "type": "LIGHT",
+        "collections": [
+          "ToyOsh_Studio"
+        ],
+        "vertices": 0,
+        "location": [
+          -0.23000000417232513,
+          -0.18000000715255737,
+          0.4000000059604645
+        ]
+      },
+      {
+        "name": "Light",
+        "type": "LIGHT",
+        "collections": [
+          "Collection",
+          "Collection.001"
+        ],
+        "vertices": 0,
+        "location": [
+          4.076245307922363,
+          1.0054539442062378,
+          5.903861999511719
+        ]
+      },
+      {
+        "name": "Rim_Softbox",
+        "type": "LIGHT",
+        "collections": [
+          "ToyOsh_Studio"
+        ],
+        "vertices": 0,
+        "location": [
+          -0.05000000074505806,
+          0.2800000011920929,
+          0.3199999928474426
+        ]
+      },
+      {
+        "name": "ToyOsh_Camera",
+        "type": "CAMERA",
+        "collections": [
+          "ToyOsh_Studio"
+        ],
+        "vertices": 0,
+        "location": [
+          0.23000000417232513,
+          -0.3100000023841858,
+          0.2800000011920929
+        ]
+      }
+    ],
+    "collections": [
+      "Collection",
+      "Collection.001",
+      "Scene",
+      "ToyOsh",
+      "ToyOsh_Asset",
+      "ToyOsh_Studio"
+    ]
+  }
+}

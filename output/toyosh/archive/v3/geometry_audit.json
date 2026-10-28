@@ -1,0 +1,56 @@
+{
+  "01_Handpainted_Porcelain_Lagan": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.0
+  },
+  "02_Rice_Interior": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.006399999838322401
+  },
+  "03_Individual_Long_Grain_Rice": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.010098137892782688
+  },
+  "08_Chickpeas_Raisins_and_Cumin": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.017601313069462776
+  },
+  "04_Braised_Yellow_and_Orange_Carrots": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.01360129565000534
+  },
+  "09_Additional_Surface_Rice": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.013017267920076847
+  },
+  "05_Slow_Cooked_Meat_Pieces": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.020419489592313766
+  },
+  "06_Torn_Meat_Fibers": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.02533489465713501
+  },
+  "07_Gelatinous_Fat_Seams": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_z_m": 0.02769112028181553
+  }
+}

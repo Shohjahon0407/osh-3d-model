@@ -1,0 +1,15 @@
+00:02.489  blend            | Read blend: "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/archive/before_v6_20261027_224819/live_before_v6.blend"
+V6_FOUNDATION 6
+/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/refine_plov_v6.py:69: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+V6_CARROTS_READY
+V6_MEAT_READY 20208
+/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/refine_plov_v6.py:239: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:
+Info: Saved as "toyosh_review_v6.blend"
+V6_READY {"version": 6, "status": "Review ready; final render/export deferred at user request", "scene": "ToyOsh_Review_v6", "triangles": 349340, "rice_grains": 10000, "main_meat_clumps": 32, "short_surface_fibre_bundles": 256, "frayed_tips": 96, "loose_shreds": 36, "fat_pockets": 24, "carrots": 120, "meat_maps_resolution": 4096, "references": ["Uzbek Plov with Tender Beef and Carrots (1).png", "Golden Pilaf with Tender Meat and Chickpeas.png", "Ornate Bowl of Lamb Pilaf.png"], "limitations": ["Reference-guided reconstruction, not a scanned meal", "Visual realism requires user review; final rendering deferred"]}
+Info: Saved as "toyosh_review_v6.blend"
+V6_AUDIT_OK {"triangles": 349340, "rice": 10000, "cap_uvs_fixed": 992}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

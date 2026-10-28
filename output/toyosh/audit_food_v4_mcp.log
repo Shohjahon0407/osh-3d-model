@@ -1,0 +1,51 @@
+/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+[10/27/26 18:15:12] INFO     Processing request of type            server.py:720
+                             CallToolRequest                                    
+[10/27/26 18:15:13] INFO     Processing request of type            server.py:720
+                             ListToolsRequest                                   
+{
+  "status": "ok",
+  "result": {
+    "rice_grains": 10000,
+    "components": {
+      "03_Individual_Long_Grain_Rice": 6500,
+      "09_Additional_Surface_Rice": 3000,
+      "10_Rice_Gap_Fill": 500,
+      "04_Braised_Yellow_and_Orange_Carrots": 90
+    },
+    "maximum_plate_penetration_m": 0.00002674199640750885,
+    "worst_plate_point": {
+      "object": "03_Individual_Long_Grain_Rice",
+      "position": [
+        -0.05422797054052353,
+        -0.10174521803855896,
+        0.0105318333953619
+      ]
+    },
+    "grain_centers_inside_carrot_vertical_envelope": 4,
+    "carrot_envelope_note": "Conservative union of top/bottom rays; overlapping carrots can give false positive center classifications.",
+    "center_samples": [
+      {
+        "object": "03_Individual_Long_Grain_Rice",
+        "grain": 2990,
+        "depth_m": 0.0016411710530519485
+      },
+      {
+        "object": "03_Individual_Long_Grain_Rice",
+        "grain": 5908,
+        "depth_m": 0.0013191662728786469
+      },
+      {
+        "object": "03_Individual_Long_Grain_Rice",
+        "grain": 6050,
+        "depth_m": 0.001608060672879219
+      },
+      {
+        "object": "03_Individual_Long_Grain_Rice",
+        "grain": 6161,
+        "depth_m": 0.0012504477053880692
+      }
+    ]
+  }
+}

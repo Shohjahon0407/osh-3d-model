@@ -1,0 +1,56 @@
+00:01.269  blend            | Read blend: "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/toyosh.blend"
+00:03.396  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+INFO Draco is available, use library at /snap/blender/7803/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /snap/blender/7803/lib/libbf_intern_meshopt_bridge.so
+16:22:04 | INFO: Starting glTF 2.0 export
+16:22:04 | INFO: Extracting primitive: 01_Handpainted_Porcelain_Lagan
+16:22:04 | INFO: Primitives created: 3
+16:22:04 | INFO: Extracting primitive: 02_Rice_Interior
+16:22:04 | INFO: Primitives created: 1
+16:22:04 | INFO: Extracting primitive: 03_Individual_Long_Grain_Rice
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | INFO: Primitives created: 4
+16:22:05 | INFO: Extracting primitive: 04_Braised_Yellow_and_Orange_Carrots.001
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | INFO: Primitives created: 2
+16:22:05 | INFO: Extracting primitive: 05_Slow_Cooked_Meat_Pieces.001
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | INFO: Primitives created: 2
+16:22:05 | INFO: Extracting primitive: 06_Torn_Meat_Fibers.001
+16:22:05 | INFO: Primitives created: 1
+16:22:05 | INFO: Extracting primitive: 07_Gelatinous_Fat_Seams
+16:22:05 | INFO: Primitives created: 1
+16:22:05 | INFO: Extracting primitive: 08_Chickpeas_Raisins_and_Cumin
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:05 | INFO: Primitives created: 3
+16:22:05 | INFO: Extracting primitive: 09_Additional_Surface_Rice
+16:22:05 | INFO: Primitives created: 4
+16:22:05 | INFO: Finished glTF 2.0 export in 0.7506954669952393 s
+00:57.454  render           | Saved: '/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/preview_meat_4k.png'
+
+Info: Saved as "toyosh.blend"
+16:22:58 | INFO: Data are loaded, start creating Blender stuff
+16:22:58 | INFO: Blender create Mesh node 01_Handpainted_Porcelain_Lagan
+16:22:58 | INFO: Blender create Mesh node 02_Rice_Interior
+16:22:58 | INFO: Blender create Mesh node 03_Individual_Long_Grain_Rice
+16:22:58 | INFO: Blender create Mesh node 04_Braised_Yellow_and_Orange_Carrots.001
+16:22:58 | INFO: Blender create Mesh node 05_Slow_Cooked_Meat_Pieces.001
+16:22:59 | INFO: Blender create Mesh node 06_Torn_Meat_Fibers.001
+16:22:59 | INFO: Blender create Mesh node 07_Gelatinous_Fat_Seams
+16:22:59 | INFO: Blender create Mesh node 08_Chickpeas_Raisins_and_Cumin
+16:22:59 | INFO: Blender create Mesh node 09_Additional_Surface_Rice
+16:22:59 | INFO: glTF import finished in 0.31s
+/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/finalize_toyosh.py:163: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  assert all(m.use_nodes for o in imported for m in o.data.materials)
+TOYOSH_VALIDATION {"blender_version": "5.2.2 LTS", "scene": "ToyOsh", "source": "/home/shohjahon/BESHKASHTAN_RASMLARI/ofiyat rasmlari/toyosh.jpg", "triangles": 149136, "glb_triangles_after_reimport": 149136, "glb_mesh_count": 9, "glb_size_bytes": 20873380, "maximum_texture_dimension": 4096, "allowed_texture_dimension": 4096, "meat_detail_version": 2, "original_scene_preserved": true, "bounds_m": {"min": [-0.14000000059604645, -0.13771414756774902, 0.0], "max": [0.14000000059604645, 0.13771414756774902, 0.05026555433869362]}, "dimensions_m": [0.2800000011920929, 0.27542829513549805, 0.05026555433869362], "objects": {"01_Handpainted_Porcelain_Lagan": {"vertices": 2816, "triangles": 5628}, "02_Rice_Interior": {"vertices": 1202, "triangles": 2400}, "03_Individual_Long_Grain_Rice": {"vertices": 56680, "triangles": 104640}, "08_Chickpeas_Raisins_and_Cumin": {"vertices": 1378, "triangles": 2544}, "04_Braised_Yellow_and_Orange_Carrots": {"vertices": 2268, "triangles": 4284}, "09_Additional_Surface_Rice": {"vertices": 6240, "triangles": 11520}, "05_Slow_Cooked_Meat_Pieces": {"vertices": 5196, "triangles": 10344}, "06_Torn_Meat_Fibers": {"vertices": 4320, "triangles": 7200}, "07_Gelatinous_Fat_Seams": {"vertices": 312, "triangles": 576}}, "render_device": "GPU", "texture_method": "Dedicated cooked-tissue 4K color, physical-fibril normal and oil/fat ORM maps; generated source augmented with native 4K procedural detail. Other surfaces retain their previous maps.", "limitations": ["Single reference: unseen geometry and physical dimensions inferred.", "Residual photographic highlights remain; albedo is not a calibrated intrinsic-color reconstruction.", "Visual physical plausibility; no rigid-body food simulation."]}
+GEOMETRY_AUDIT {"01_Handpainted_Porcelain_Lagan": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.0}, "02_Rice_Interior": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.006399999838322401}, "03_Individual_Long_Grain_Rice": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.010098137892782688}, "08_Chickpeas_Raisins_and_Cumin": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.017601313069462776}, "04_Braised_Yellow_and_Orange_Carrots": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.01360129565000534}, "09_Additional_Surface_Rice": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.013017267920076847}, "05_Slow_Cooked_Meat_Pieces": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.008999999612569809}, "06_Torn_Meat_Fibers": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.02146056853234768}, "07_Gelatinous_Fat_Seams": {"boundary_edges": 0, "nonmanifold_edges": 0, "zero_area_faces": 0, "min_z_m": 0.03262799233198166}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

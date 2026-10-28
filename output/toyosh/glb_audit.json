@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "triangles": 349700,
+  "embedded_images": [
+    {
+      "name": "meat_photo_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 1704772
+    },
+    {
+      "name": "v4_rice_normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 1938766
+    },
+    {
+      "name": "v4_rice_0_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 280154
+    },
+    {
+      "name": "v4_rice_orm",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 65339
+    },
+    {
+      "name": "v4_rice_1_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 269273
+    },
+    {
+      "name": "v4_rice_2_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 289245
+    },
+    {
+      "name": "v4_rice_3_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 249994
+    },
+    {
+      "name": "v4_rice_4_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 235253
+    },
+    {
+      "name": "v4_carrot_normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 2145095
+    },
+    {
+      "name": "v4_carrot_0_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 227670
+    },
+    {
+      "name": "v4_carrot_orm",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 62655
+    },
+    {
+      "name": "v4_carrot_1_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 188201
+    },
+    {
+      "name": "v4_carrot_2_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 149112
+    },
+    {
+      "name": "cooked_meat_4k_normal",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 5596473
+    },
+    {
+      "name": "cooked_meat_4k_basecolor",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 2178315
+    },
+    {
+      "name": "cooked_meat_4k_orm",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 2113982
+    },
+    {
+      "name": "rice_cream_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 128800
+    },
+    {
+      "name": "rice_cream_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 75195
+    },
+    {
+      "name": "rice_cream_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 13398
+    },
+    {
+      "name": "chickpea_normal",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 39515
+    },
+    {
+      "name": "chickpea_basecolor",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 19294
+    },
+    {
+      "name": "chickpea_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 14121
+    },
+    {
+      "name": "raisin_normal",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 41176
+    },
+    {
+      "name": "raisin_basecolor",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 11127
+    },
+    {
+      "name": "raisin_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 14679
+    },
+    {
+      "name": "meat_crust_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 174668
+    },
+    {
+      "name": "meat_crust_basecolor",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 222240
+    },
+    {
+      "name": "meat_crust_orm",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 49384
+    }
+  ],
+  "external_resources": 0,
+  "size_bytes": 30856352,
+  "sha256_glb": "096960a179d0dd48ef80a757905a43674eb342951e662bb4addea42e22cc4822",
+  "sha256_source": "94beb28a254db3849cad6de8a81212580c256be286bf234530f3661873649368",
+  "meat_4k_verified": true,
+  "food_detail_version": 4,
+  "meat_quantity_version": 5,
+  "checks": [
+    "GLB header and chunk lengths",
+    "buffer/accessor bounds",
+    "finite positions and UVs",
+    "unit normals",
+    "valid triangle indices",
+    "embedded PNG/JPEG integrity",
+    "texture dimensions",
+    "triangle and file budgets",
+    "camera/light exclusion"
+  ],
+  "validator_note": "Independent offline integrity audit plus Blender reimport; Khronos validator package could not be fetched because npm registry timed out."
+}

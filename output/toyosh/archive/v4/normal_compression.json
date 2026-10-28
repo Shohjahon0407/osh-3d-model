@@ -1,0 +1,9 @@
+{
+  "directions": 256,
+  "resolution": [
+    4096,
+    4096
+  ],
+  "mean_angular_error_deg": 2.539143263139466,
+  "p95_angular_error_deg": 4.474487480746413
+}

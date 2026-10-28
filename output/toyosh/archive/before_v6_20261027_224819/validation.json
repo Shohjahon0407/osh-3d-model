@@ -1,0 +1,102 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "scene": "ToyOsh",
+  "source": "/home/shohjahon/BESHKASHTAN_RASMLARI/ofiyat rasmlari/toyosh.jpg",
+  "triangles": 349700,
+  "glb_triangles_after_reimport": 349700,
+  "glb_mesh_count": 13,
+  "glb_size_bytes": 30856352,
+  "maximum_texture_dimension": 4096,
+  "allowed_texture_dimension": 4096,
+  "meat_detail_version": 3,
+  "food_detail_version": 4,
+  "meat_quantity_version": 5,
+  "meat_main_clumps": 32,
+  "triangle_budget": 350000,
+  "file_budget_mib": 35,
+  "additional_reference_images": [
+    "/home/shohjahon/Downloads/Ornate Plate of Hearty Pilaf.png",
+    "/home/shohjahon/Downloads/Uzbek Plov with Tender Beef and Carrots.png",
+    "/home/shohjahon/Downloads/Overhead Uzbek Plov with Braised Meat and Carrots.png",
+    "/home/shohjahon/Downloads/Ornate Central Asian Pilaf Feast.png"
+  ],
+  "original_scene_preserved": true,
+  "bounds_m": {
+    "min": [
+      -0.14000000059604645,
+      -0.13771414756774902,
+      0.0
+    ],
+    "max": [
+      0.14000000059604645,
+      0.13771414756774902,
+      0.06962469965219498
+    ]
+  },
+  "dimensions_m": [
+    0.2800000011920929,
+    0.27542829513549805,
+    0.06962469965219498
+  ],
+  "objects": {
+    "01_Handpainted_Porcelain_Lagan": {
+      "vertices": 2816,
+      "triangles": 5628
+    },
+    "08_Chickpeas_Raisins_and_Cumin": {
+      "vertices": 1378,
+      "triangles": 2544
+    },
+    "05_Slow_Cooked_Meat_Pieces": {
+      "vertices": 7272,
+      "triangles": 14024
+    },
+    "06_Torn_Meat_Fibers": {
+      "vertices": 1920,
+      "triangles": 3360
+    },
+    "07_Gelatinous_Fat_Seams": {
+      "vertices": 694,
+      "triangles": 1296
+    },
+    "02_Rice_Interior": {
+      "vertices": 882,
+      "triangles": 1760
+    },
+    "04_Braised_Yellow_and_Orange_Carrots": {
+      "vertices": 4320,
+      "triangles": 8280
+    },
+    "03_Individual_Long_Grain_Rice": {
+      "vertices": 130000,
+      "triangles": 234000
+    },
+    "10_Rice_Gap_Fill": {
+      "vertices": 10000,
+      "triangles": 18000
+    },
+    "11_Additional_Cooked_Meat": {
+      "vertices": 4984,
+      "triangles": 9448
+    },
+    "12_Additional_Meat_Fibers": {
+      "vertices": 960,
+      "triangles": 1680
+    },
+    "13_Additional_Fat": {
+      "vertices": 694,
+      "triangles": 1296
+    },
+    "09_Additional_Surface_Rice": {
+      "vertices": 30192,
+      "triangles": 48384
+    }
+  },
+  "render_device": "GPU",
+  "texture_method": "v5: 32 main clumps and 36 loose shreds; original v3 meat geometry and 4K maps retained, additional supported copies share the same materials. 10,000 rice grains and 90 cooked carrots retained; occluded inner rice and added meat copies simplified to fit 350k triangles.",
+  "limitations": [
+    "Uncalibrated references: unseen geometry and physical dimensions inferred.",
+    "Residual photographic highlights remain; albedo is not a calibrated intrinsic-color reconstruction.",
+    "Static contact fitting and visual physical plausibility; no rigid-body food simulation."
+  ]
+}

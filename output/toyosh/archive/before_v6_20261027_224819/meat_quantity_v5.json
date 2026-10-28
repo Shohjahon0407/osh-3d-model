@@ -1,0 +1,436 @@
+{
+  "version": 5,
+  "added_main_clumps": 16,
+  "total_main_clumps": 32,
+  "added_loose_shreds": 18,
+  "total_loose_shreds": 36,
+  "added_fine_frays": 60,
+  "total_fine_frays": 180,
+  "original_objects_preserved": {
+    "01_Handpainted_Porcelain_Lagan": "5e7e1af9663aba17b97ca19156579cb3fc5deec4e8768effea49f90aafc732e9",
+    "08_Chickpeas_Raisins_and_Cumin": "0931750826ad363c0e99f699c4d772f21885da70fcd0ac051d2eb0b95549d40d",
+    "05_Slow_Cooked_Meat_Pieces": "67d77c81bb2091920f27f993c67f6517ba20f0faa7aa68d950c369315b515960",
+    "06_Torn_Meat_Fibers": "b4c8453a8a4b67d0310727ba7f32d32e6705efa8f49e693bc646ddecf79412a3",
+    "07_Gelatinous_Fat_Seams": "f2ba8e689a9a7c587b06bac993e115ab0ab3bd477f4e4b206788705f415f66ba",
+    "02_Rice_Interior": "9ac35bc8d84961c48649389e4708f966b7222caa7b5dec0b62a87cac5a525313",
+    "04_Braised_Yellow_and_Orange_Carrots": "816a2221bd891d461591d7ae2de63254517155bbcfad1ee3e21b4784ad61f591",
+    "03_Individual_Long_Grain_Rice": "9885f16a90f1bc8267d357c7d16596c309153e3ffd73204957eb45dd58eeafdd",
+    "10_Rice_Gap_Fill": "d0c902e21ff4db767fec9ac978fc34697305e34cdf82810ed79de70cf7870f66"
+  },
+  "meat_4k_maps": "unchanged; shared original material/UV maps",
+  "rice_grain_count": 10000,
+  "hidden_rice_grains_simplified": 1452,
+  "visible_inner_grains_protected": 1548,
+  "triangles": 349700,
+  "support": [
+    {
+      "source_group": 3,
+      "new_center": [
+        -0.04500000178813934,
+        0.04400000348687172,
+        0.04375988617539406
+      ],
+      "maximum_z_m": 0.052452314645051956,
+      "contact_samples": 16,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 8,
+      "new_center": [
+        0.015000000596046448,
+        0.057999998331069946,
+        0.041908521205186844
+      ],
+      "maximum_z_m": 0.050918400287628174,
+      "contact_samples": 13,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 13,
+      "new_center": [
+        0.04999999701976776,
+        0.013000000268220901,
+        0.04050823673605919
+      ],
+      "maximum_z_m": 0.04632744565606117,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 2,
+      "new_center": [
+        -0.04800000041723251,
+        0.003999999724328518,
+        0.048636939376592636
+      ],
+      "maximum_z_m": 0.05613471940159798,
+      "contact_samples": 11,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 7,
+      "new_center": [
+        -0.027000004425644875,
+        0.012999994680285454,
+        0.047684114426374435
+      ],
+      "maximum_z_m": 0.05838823318481445,
+      "contact_samples": 1,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 12,
+      "new_center": [
+        0.014999998733401299,
+        -0.014999998733401299,
+        0.04500069096684456
+      ],
+      "maximum_z_m": 0.05156755819916725,
+      "contact_samples": 4,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 1,
+      "new_center": [
+        0.027000000700354576,
+        -0.056999996304512024,
+        0.042952295392751694
+      ],
+      "maximum_z_m": 0.052594345062971115,
+      "contact_samples": 30,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 6,
+      "new_center": [
+        -0.014000000432133675,
+        -0.05400000140070915,
+        0.04540063813328743
+      ],
+      "maximum_z_m": 0.05467536672949791,
+      "contact_samples": 21,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 11,
+      "new_center": [
+        0.04800000414252281,
+        -0.024000000208616257,
+        0.042322997003793716
+      ],
+      "maximum_z_m": 0.051534343510866165,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 0,
+      "new_center": [
+        -0.041999999433755875,
+        -0.041999999433755875,
+        0.044732820242643356
+      ],
+      "maximum_z_m": 0.05809034779667854,
+      "contact_samples": 18,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 5,
+      "new_center": [
+        0.000999998301267624,
+        0.03099999763071537,
+        0.04664916917681694
+      ],
+      "maximum_z_m": 0.053580392152071,
+      "contact_samples": 8,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 10,
+      "new_center": [
+        -0.018999997526407242,
+        0.04500000178813934,
+        0.04131487384438515
+      ],
+      "maximum_z_m": 0.04708431661128998,
+      "contact_samples": 2,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 15,
+      "new_center": [
+        0.024000000208616257,
+        0.0010000006295740604,
+        0.04589829221367836
+      ],
+      "maximum_z_m": 0.05231775343418121,
+      "contact_samples": 4,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 4,
+      "new_center": [
+        -0.017999999225139618,
+        -0.020999999716877937,
+        0.056619223207235336
+      ],
+      "maximum_z_m": 0.06962469965219498,
+      "contact_samples": 7,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 9,
+      "new_center": [
+        0.0029999976977705956,
+        0.01099999900907278,
+        0.05664721503853798
+      ],
+      "maximum_z_m": 0.0628182590007782,
+      "contact_samples": 1,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 14,
+      "new_center": [
+        0.006000000052154064,
+        -0.03099999949336052,
+        0.05828532204031944
+      ],
+      "maximum_z_m": 0.06654469668865204,
+      "contact_samples": 16,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.00065
+    },
+    {
+      "source_group": 16,
+      "new_center": [
+        0.06120495870709419,
+        0.0021347426809370518,
+        0.03875785693526268
+      ],
+      "maximum_z_m": 0.03972999006509781,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 17,
+      "new_center": [
+        -0.0350046306848526,
+        0.03407059609889984,
+        0.04228842630982399
+      ],
+      "maximum_z_m": 0.04334515705704689,
+      "contact_samples": 2,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 18,
+      "new_center": [
+        -0.0063239713199436665,
+        -0.07247628271579742,
+        0.03533799573779106
+      ],
+      "maximum_z_m": 0.03621404245495796,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 19,
+      "new_center": [
+        0.0338909886777401,
+        0.04602948948740959,
+        0.03846899792551994
+      ],
+      "maximum_z_m": 0.039336830377578735,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 20,
+      "new_center": [
+        -0.06336745619773865,
+        -0.02049977518618107,
+        0.03661024197936058
+      ],
+      "maximum_z_m": 0.037325773388147354,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 21,
+      "new_center": [
+        0.05219735950231552,
+        -0.029059965163469315,
+        0.04332117363810539
+      ],
+      "maximum_z_m": 0.044264014810323715,
+      "contact_samples": 1,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 22,
+      "new_center": [
+        -0.018604673445224762,
+        0.06114658713340759,
+        0.050368186086416245
+      ],
+      "maximum_z_m": 0.05098707601428032,
+      "contact_samples": 2,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 23,
+      "new_center": [
+        -0.03462560474872589,
+        -0.06411320716142654,
+        0.034618277102708817
+      ],
+      "maximum_z_m": 0.03556867688894272,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 24,
+      "new_center": [
+        0.03537968918681145,
+        0.006847673561424017,
+        0.042203690856695175
+      ],
+      "maximum_z_m": 0.04295874014496803,
+      "contact_samples": 4,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 25,
+      "new_center": [
+        -0.05782536417245865,
+        0.028726212680339813,
+        0.03810955956578255
+      ],
+      "maximum_z_m": 0.03894297406077385,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 26,
+      "new_center": [
+        0.021823307499289513,
+        -0.04415744170546532,
+        0.04141824319958687
+      ],
+      "maximum_z_m": 0.04237537831068039,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 27,
+      "new_center": [
+        0.013515738770365715,
+        0.06525668501853943,
+        0.04643065854907036
+      ],
+      "maximum_z_m": 0.04769658297300339,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 28,
+      "new_center": [
+        -0.056826069951057434,
+        -0.0335930660367012,
+        0.036944467574357986
+      ],
+      "maximum_z_m": 0.037983283400535583,
+      "contact_samples": 3,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 29,
+      "new_center": [
+        0.0543183907866478,
+        -0.021696913987398148,
+        0.046389441937208176
+      ],
+      "maximum_z_m": 0.047425493597984314,
+      "contact_samples": 1,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 30,
+      "new_center": [
+        -0.04076594114303589,
+        0.056032080203294754,
+        0.036290403455495834
+      ],
+      "maximum_z_m": 0.03688846528530121,
+      "contact_samples": 5,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 31,
+      "new_center": [
+        -0.011261725798249245,
+        -0.04349023848772049,
+        0.047866422683000565
+      ],
+      "maximum_z_m": 0.04869741573929787,
+      "contact_samples": 1,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 32,
+      "new_center": [
+        0.039580002427101135,
+        0.034267354756593704,
+        0.040700916200876236
+      ],
+      "maximum_z_m": 0.04161200299859047,
+      "contact_samples": 2,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    },
+    {
+      "source_group": 33,
+      "new_center": [
+        -0.06193888932466507,
+        0.004880234133452177,
+        0.03846513852477074
+      ],
+      "maximum_z_m": 0.039606090635061264,
+      "contact_samples": 6,
+      "support": "rice/carrot or substantial meat root",
+      "embedding_m": 0.0002
+    }
+  ],
+  "maximum_meat_z_m": 0.06962469965219498
+}

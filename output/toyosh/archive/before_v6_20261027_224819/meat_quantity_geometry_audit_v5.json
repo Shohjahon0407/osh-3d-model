@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "counts": {
+    "03_Individual_Long_Grain_Rice": 6500,
+    "09_Additional_Surface_Rice": 3000,
+    "10_Rice_Gap_Fill": 500,
+    "04_Braised_Yellow_and_Orange_Carrots": 90
+  },
+  "preserved_objects": {
+    "01_Handpainted_Porcelain_Lagan": true,
+    "08_Chickpeas_Raisins_and_Cumin": true,
+    "05_Slow_Cooked_Meat_Pieces": true,
+    "06_Torn_Meat_Fibers": true,
+    "07_Gelatinous_Fat_Seams": true,
+    "02_Rice_Interior": true,
+    "04_Braised_Yellow_and_Orange_Carrots": true,
+    "03_Individual_Long_Grain_Rice": true,
+    "10_Rice_Gap_Fill": true
+  },
+  "coverage": [
+    {
+      "view": "top",
+      "exposed_core_rays": 22,
+      "food_rays": 14864,
+      "core_exposure_fraction": 0.001480086114101184
+    },
+    {
+      "view": "angle",
+      "exposed_core_rays": 17,
+      "food_rays": 12762,
+      "core_exposure_fraction": 0.001332079611346184
+    },
+    {
+      "view": "front",
+      "exposed_core_rays": 9,
+      "food_rays": 7004,
+      "core_exposure_fraction": 0.0012849800114220445
+    },
+    {
+      "view": "back",
+      "exposed_core_rays": 9,
+      "food_rays": 7139,
+      "core_exposure_fraction": 0.0012606807676145118
+    },
+    {
+      "view": "left",
+      "exposed_core_rays": 9,
+      "food_rays": 6932,
+      "core_exposure_fraction": 0.001298326601269475
+    },
+    {
+      "view": "right",
+      "exposed_core_rays": 7,
+      "food_rays": 7086,
+      "core_exposure_fraction": 0.0009878633926051368
+    }
+  ],
+  "maximum_core_exposure_fraction": 0.001480086114101184,
+  "new_meat_groups_have_support": true,
+  "triangles": 349700
+}

@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "triangles": 149040,
+  "embedded_images": [
+    {
+      "name": "meat_photo_basecolor",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 1704772
+    },
+    {
+      "name": "rice_ivory_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 128732
+    },
+    {
+      "name": "rice_ivory_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 73044
+    },
+    {
+      "name": "rice_ivory_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 13384
+    },
+    {
+      "name": "rice_cream_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 128800
+    },
+    {
+      "name": "rice_cream_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 75195
+    },
+    {
+      "name": "rice_cream_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 13398
+    },
+    {
+      "name": "rice_golden_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 128857
+    },
+    {
+      "name": "rice_golden_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 71185
+    },
+    {
+      "name": "rice_golden_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 13419
+    },
+    {
+      "name": "rice_white_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 128895
+    },
+    {
+      "name": "rice_white_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 76087
+    },
+    {
+      "name": "rice_white_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 13371
+    },
+    {
+      "name": "carrot_yellow_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 143228
+    },
+    {
+      "name": "carrot_yellow_basecolor",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 249323
+    },
+    {
+      "name": "carrot_yellow_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 10681
+    },
+    {
+      "name": "carrot_orange_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 143313
+    },
+    {
+      "name": "carrot_orange_basecolor",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 236247
+    },
+    {
+      "name": "carrot_orange_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 10673
+    },
+    {
+      "name": "meat_photo_normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 2071839
+    },
+    {
+      "name": "meat_photo_orm",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 27439
+    },
+    {
+      "name": "meat_crust_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 174668
+    },
+    {
+      "name": "meat_crust_basecolor",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 222240
+    },
+    {
+      "name": "meat_crust_orm",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 49384
+    },
+    {
+      "name": "meat_cut_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 162842
+    },
+    {
+      "name": "meat_cut_basecolor",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 239800
+    },
+    {
+      "name": "meat_cut_orm",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 41399
+    },
+    {
+      "name": "fat_normal",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 154750
+    },
+    {
+      "name": "fat_basecolor",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 74104
+    },
+    {
+      "name": "fat_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 12121
+    },
+    {
+      "name": "chickpea_normal",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 39515
+    },
+    {
+      "name": "chickpea_basecolor",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 19294
+    },
+    {
+      "name": "chickpea_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 14121
+    },
+    {
+      "name": "raisin_normal",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 41176
+    },
+    {
+      "name": "raisin_basecolor",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 11127
+    },
+    {
+      "name": "raisin_orm",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 14679
+    }
+  ],
+  "external_resources": 0,
+  "size_bytes": 13694680,
+  "sha256_glb": "3972c6094d7e2e15a465f183d5faf81bdca1b9271b0645ebc29e6c3039339390",
+  "sha256_source": "94beb28a254db3849cad6de8a81212580c256be286bf234530f3661873649368",
+  "checks": [
+    "GLB header and chunk lengths",
+    "buffer/accessor bounds",
+    "finite positions and UVs",
+    "unit normals",
+    "valid triangle indices",
+    "embedded PNG/JPEG integrity",
+    "texture dimensions",
+    "triangle and file budgets",
+    "camera/light exclusion"
+  ],
+  "validator_note": "Independent offline integrity audit plus Blender reimport; Khronos validator package could not be fetched because npm registry timed out."
+}

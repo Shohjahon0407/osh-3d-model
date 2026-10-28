@@ -1,0 +1,52 @@
+/home/shohjahon/.venvs/blender-mcp/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+[10/27/26 18:07:40] INFO     Processing request of type            server.py:720
+                             CallToolRequest                                    
+[10/27/26 18:07:48] INFO     Processing request of type            server.py:720
+                             ListToolsRequest                                   
+{
+  "status": "ok",
+  "result": {
+    "translated_grains": 996,
+    "core_exposure": 0.0010159651669085631,
+    "views": [
+      {
+        "view": "top",
+        "food_rays": 14864,
+        "exposed_core_rays": 2,
+        "core_exposure_fraction": 0.00013455328310010763
+      },
+      {
+        "view": "angle",
+        "food_rays": 12762,
+        "exposed_core_rays": 2,
+        "core_exposure_fraction": 0.0001567152483936687
+      },
+      {
+        "view": "front_low",
+        "food_rays": 6890,
+        "exposed_core_rays": 7,
+        "core_exposure_fraction": 0.0010159651669085631
+      },
+      {
+        "view": "back_low",
+        "food_rays": 6791,
+        "exposed_core_rays": 4,
+        "core_exposure_fraction": 0.0005890148726255338
+      },
+      {
+        "view": "left_low",
+        "food_rays": 6675,
+        "exposed_core_rays": 6,
+        "core_exposure_fraction": 0.0008988764044943821
+      },
+      {
+        "view": "right_low",
+        "food_rays": 6665,
+        "exposed_core_rays": 6,
+        "core_exposure_fraction": 0.000900225056264066
+      }
+    ]
+  },
+  "stdout": "Info: Saved as \"toyosh.blend\"\n"
+}

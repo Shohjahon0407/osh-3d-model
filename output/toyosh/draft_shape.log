@@ -1,0 +1,9 @@
+00:01.273  blend            | Read blend: "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/toyosh.blend"
+00:03.238  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:08.126  render           | Saved: '/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/draft_meat_shape_color.png'
+/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/render_shape_draft.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  clay.use_nodes=True
+00:13.390  render           | Saved: '/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/preview_meat_shape.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

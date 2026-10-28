@@ -1,0 +1,24 @@
+{
+  "maps": {
+    "basecolor": [
+      4096,
+      4096
+    ],
+    "normal": [
+      4096,
+      4096
+    ],
+    "orm": [
+      4096,
+      4096
+    ]
+  },
+  "source_resolution": [
+    1254,
+    1254
+  ],
+  "source_kind": "Built-in image_gen, using toyosh.jpg as cooked-meat/color reference",
+  "microdetail": "Physical height, fat response, oil roughness and fine fibril variation evaluated at native 4096 texels.",
+  "physical_swatch_m": 0.065,
+  "source_note": "The generated color source is not a native 4K photograph. Source color is resampled, then supplemented by native 4K procedural microdetail."
+}

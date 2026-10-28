@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "triangles": 149696,
+  "parent_clumps": 16,
+  "inner_muscle_roots": 16,
+  "sculpted_fissured_roots": true,
+  "primary_fascicles": 48,
+  "secondary_fascicles": 48,
+  "loose_shreds": 18,
+  "attached_fibers": 120,
+  "fat_pockets": 12,
+  "clinging_rice_grains": 11,
+  "maximum_height_m": 0.06611895561218262,
+  "non_meat_geometry_unchanged": true,
+  "non_meat_parts_unchanged": false,
+  "rice_bed_change": "Removed photographed old meat only beneath its old footprints; rice mesh and plate image unchanged.",
+  "support_contacts": [
+    {
+      "clump": 0,
+      "support_contacts": 2,
+      "lift_m": 0.039285566057484116,
+      "fascicles": 6,
+      "long_axis_rad": -0.55
+    },
+    {
+      "clump": 1,
+      "support_contacts": 3,
+      "lift_m": 0.038720325803193685,
+      "fascicles": 6,
+      "long_axis_rad": 0.45
+    },
+    {
+      "clump": 2,
+      "support_contacts": 4,
+      "lift_m": 0.03893662022785088,
+      "fascicles": 6,
+      "long_axis_rad": 0.88
+    },
+    {
+      "clump": 3,
+      "support_contacts": 3,
+      "lift_m": 0.039427320774830014,
+      "fascicles": 6,
+      "long_axis_rad": 0.82
+    },
+    {
+      "clump": 4,
+      "support_contacts": 3,
+      "lift_m": 0.04064753451984187,
+      "fascicles": 6,
+      "long_axis_rad": -0.25
+    },
+    {
+      "clump": 5,
+      "support_contacts": 1,
+      "lift_m": 0.03841931749231091,
+      "fascicles": 6,
+      "long_axis_rad": 0.35
+    },
+    {
+      "clump": 6,
+      "support_contacts": 1,
+      "lift_m": 0.03778824765564659,
+      "fascicles": 6,
+      "long_axis_rad": -0.4
+    },
+    {
+      "clump": 7,
+      "support_contacts": 4,
+      "lift_m": 0.028269758764456893,
+      "fascicles": 6,
+      "long_axis_rad": -1.0
+    },
+    {
+      "clump": 8,
+      "support_contacts": 5,
+      "lift_m": 0.035094042156275554,
+      "fascicles": 6,
+      "long_axis_rad": 0.7
+    },
+    {
+      "clump": 9,
+      "support_contacts": 2,
+      "lift_m": 0.027106385262336406,
+      "fascicles": 6,
+      "long_axis_rad": 1.38
+    },
+    {
+      "clump": 10,
+      "support_contacts": 3,
+      "lift_m": 0.034516770379818824,
+      "fascicles": 6,
+      "long_axis_rad": 1.0
+    },
+    {
+      "clump": 11,
+      "support_contacts": 2,
+      "lift_m": 0.031834899068748826,
+      "fascicles": 6,
+      "long_axis_rad": -0.2
+    },
+    {
+      "clump": 12,
+      "support_contacts": 16,
+      "lift_m": 0.030011942776969884,
+      "fascicles": 6,
+      "long_axis_rad": -0.5
+    },
+    {
+      "clump": 13,
+      "support_contacts": 2,
+      "lift_m": 0.034291268297787295,
+      "fascicles": 6,
+      "long_axis_rad": 0.8
+    },
+    {
+      "clump": 14,
+      "support_contacts": 2,
+      "lift_m": 0.057766051709333945,
+      "fascicles": 6,
+      "long_axis_rad": -1.05
+    },
+    {
+      "clump": 15,
+      "support_contacts": 3,
+      "lift_m": 0.03470969834862845,
+      "fascicles": 6,
+      "long_axis_rad": 0.45
+    }
+  ],
+  "reference_images": [
+    "/home/shohjahon/Downloads/Ornate Plate of Hearty Pilaf.png",
+    "/home/shohjahon/Downloads/Uzbek Plov with Tender Beef and Carrots.png",
+    "/home/shohjahon/Downloads/Overhead Uzbek Plov with Braised Meat and Carrots.png",
+    "/home/shohjahon/Downloads/Ornate Central Asian Pilaf Feast.png"
+  ],
+  "physics_method": "Static mesh contact fitting plus support-plane tilt; frayed tips rooted on actual meat and sagged toward the rice. No dynamic simulation.",
+  "outer_wrapper_mesh": false
+}

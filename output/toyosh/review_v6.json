@@ -1,0 +1,454 @@
+{
+  "version": 6,
+  "status": "Review ready; final render/export deferred at user request",
+  "scene": "ToyOsh_Review_v6",
+  "triangles": 349340,
+  "rice_grains": 10000,
+  "main_meat_clumps": 32,
+  "short_surface_fibre_bundles": 256,
+  "frayed_tips": 96,
+  "loose_shreds": 36,
+  "fat_pockets": 24,
+  "carrots": 120,
+  "meat_maps_resolution": 4096,
+  "references": [
+    "Uzbek Plov with Tender Beef and Carrots (1).png",
+    "Golden Pilaf with Tender Meat and Chickpeas.png",
+    "Ornate Bowl of Lamb Pilaf.png"
+  ],
+  "contacts": [
+    {
+      "clump": 27,
+      "contacts": 7,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.050657190209627154,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 30,
+      "contacts": 5,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.04551670683026314,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 31,
+      "contacts": 5,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.054531711912155154,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 29,
+      "contacts": 10,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05536870641112328,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 28,
+      "contacts": 19,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.04787858185768128,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 26,
+      "contacts": 16,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.0538524611055851,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 25,
+      "contacts": 9,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05587052164077759,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 24,
+      "contacts": 5,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.04800806177258492,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 23,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05576481652855873,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 22,
+      "contacts": 15,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.057059559798240664,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 21,
+      "contacts": 1,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05990685505270958,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 20,
+      "contacts": 12,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.050932161337137224,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 19,
+      "contacts": 20,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05086265859603882,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 18,
+      "contacts": 7,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06117309240102768,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 17,
+      "contacts": 4,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06658343580961228,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 16,
+      "contacts": 1,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05489764345288277,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 15,
+      "contacts": 9,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06777483580112457,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 14,
+      "contacts": 9,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05104590935111046,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 13,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06466700491905213,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 12,
+      "contacts": 3,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.07011937705278397,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 11,
+      "contacts": 7,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06144322437644005,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 10,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.07290070114135742,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 9,
+      "contacts": 9,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06751674768924713,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 8,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06291541067361832,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 7,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.07593220082521439,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 6,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.05929575843214989,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 5,
+      "contacts": 6,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.0794169863820076,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 4,
+      "contacts": 5,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.07500256953239441,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 3,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.06701048818826676,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 2,
+      "contacts": 4,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.07473961619138718,
+      "horizontal_shift_m": [
+        0.003197750583973766,
+        -0.037865213470977495
+      ]
+    },
+    {
+      "clump": 1,
+      "contacts": 8,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.08273632434606552,
+      "horizontal_shift_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "clump": 0,
+      "contacts": 2,
+      "embedding_m": 0.00065,
+      "maximum_z_m": 0.08211370167732239,
+      "horizontal_shift_m": [
+        0.00955300558258867,
+        0.007262236868832475
+      ]
+    }
+  ],
+  "mesh_triangles": {
+    "v6_01_Handpainted_Porcelain_Lagan": 5628,
+    "v6_08_Chickpeas_Raisins_and_Cumin": 2544,
+    "v6_02_Rice_Interior": 1760,
+    "v6_03_Individual_Long_Grain_Rice": 234000,
+    "v6_09_Additional_Surface_Rice": 60000,
+    "v6_10_Rice_Gap_Fill": 18000,
+    "v6_04_Soft_Yellow_Carrots": 7200,
+    "v6_05_Braised_Meat_Chunks": 10240,
+    "v6_06_Separated_Muscle_Fibres": 8048,
+    "v6_07_Soft_Fat_Pockets": 1920
+  },
+  "changes": [
+    "Compact soft-cut meat silhouettes, short attached muscle bundles, gravity-curved frays",
+    "Separate pale gelatin/fat lobes",
+    "New directed 4K surface maps blended with retained cooked-tissue albedo",
+    "Warm lightly translucent rice; preserved dense 10000-grain packing",
+    "120 visible soft yellow/orange carrot sticks",
+    "Preserved original scenes and imported duplicates outside the clean review scene"
+  ],
+  "limitations": [
+    "Reference-guided reconstruction, not a scanned meal",
+    "Visual realism requires user review; final rendering deferred",
+    "Retained tissue albedo contains some photographic shading; final material bake will follow visual approval."
+  ],
+  "geometry_audit": {
+    "passed": true,
+    "objects": {
+      "v6_01_Handpainted_Porcelain_Lagan": {
+        "triangles": 5628,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_08_Chickpeas_Raisins_and_Cumin": {
+        "triangles": 2544,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_02_Rice_Interior": {
+        "triangles": 1760,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_03_Individual_Long_Grain_Rice": {
+        "triangles": 234000,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_09_Additional_Surface_Rice": {
+        "triangles": 60000,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_10_Rice_Gap_Fill": {
+        "triangles": 18000,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_04_Soft_Yellow_Carrots": {
+        "triangles": 7200,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_05_Braised_Meat_Chunks": {
+        "triangles": 10240,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_06_Separated_Muscle_Fibres": {
+        "triangles": 8048,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      },
+      "v6_07_Soft_Fat_Pockets": {
+        "triangles": 1920,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "finite_vertices": true
+      }
+    },
+    "degenerate_cap_uv_fixed": 0,
+    "rice_count_verified": 10000,
+    "4k_maps_packed": true,
+    "source_scenes_retained": [
+      "Scene",
+      "Scene.001",
+      "ToyOsh",
+      "ToyOsh_Review_v6"
+    ],
+    "final_render_created": false,
+    "glb_export_created": false
+  },
+  "material_finish": "Original 4K cooked-tissue albedo blended with restrained new albedo; new 4K directed normals and moisture map plus fine procedural pores. Final PBR bake/export is deferred until review.",
+  "meat_silhouette": "24 plump irregular chunks and 8 flatter torn slices, supported as cohesive groups"
+}

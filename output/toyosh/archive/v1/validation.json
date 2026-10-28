@@ -1,0 +1,73 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "scene": "ToyOsh",
+  "source": "/home/shohjahon/BESHKASHTAN_RASMLARI/ofiyat rasmlari/toyosh.jpg",
+  "triangles": 149040,
+  "glb_triangles_after_reimport": 149040,
+  "glb_mesh_count": 9,
+  "glb_size_bytes": 13694680,
+  "maximum_texture_dimension": 2048,
+  "original_scene_preserved": true,
+  "bounds_m": {
+    "min": [
+      -0.14000000059604645,
+      -0.13771414756774902,
+      0.0
+    ],
+    "max": [
+      0.14000000059604645,
+      0.13771414756774902,
+      0.050345528870821
+    ]
+  },
+  "dimensions_m": [
+    0.2800000011920929,
+    0.27542829513549805,
+    0.050345528870821
+  ],
+  "objects": {
+    "01_Handpainted_Porcelain_Lagan": {
+      "vertices": 2816,
+      "triangles": 5628
+    },
+    "02_Rice_Interior": {
+      "vertices": 1202,
+      "triangles": 2400
+    },
+    "03_Individual_Long_Grain_Rice": {
+      "vertices": 56680,
+      "triangles": 104640
+    },
+    "08_Chickpeas_Raisins_and_Cumin": {
+      "vertices": 1378,
+      "triangles": 2544
+    },
+    "07_Gelatinous_Fat_Seams": {
+      "vertices": 300,
+      "triangles": 576
+    },
+    "04_Braised_Yellow_and_Orange_Carrots": {
+      "vertices": 2268,
+      "triangles": 4284
+    },
+    "05_Slow_Cooked_Meat_Pieces": {
+      "vertices": 6732,
+      "triangles": 13416
+    },
+    "06_Torn_Meat_Fibers": {
+      "vertices": 2330,
+      "triangles": 4032
+    },
+    "09_Additional_Surface_Rice": {
+      "vertices": 6240,
+      "triangles": 11520
+    }
+  },
+  "render_device": "GPU",
+  "texture_method": "Procedural PBR fields evaluated into PNG maps; photo-guided albedo on traced meat, rice bed and porcelain. Broad photographic illumination normalized approximately.",
+  "limitations": [
+    "Single reference: unseen geometry and physical dimensions inferred.",
+    "Residual photographic highlights remain; albedo is not a calibrated intrinsic-color reconstruction.",
+    "Visual physical plausibility; no rigid-body food simulation."
+  ]
+}

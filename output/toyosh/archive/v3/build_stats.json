@@ -1,0 +1,43 @@
+{
+  "objects": {
+    "01_Handpainted_Porcelain_Lagan": {
+      "vertices": 2816,
+      "triangles": 5628
+    },
+    "02_Rice_Interior": {
+      "vertices": 1202,
+      "triangles": 2400
+    },
+    "03_Individual_Long_Grain_Rice": {
+      "vertices": 56680,
+      "triangles": 104640
+    },
+    "08_Chickpeas_Raisins_and_Cumin": {
+      "vertices": 1378,
+      "triangles": 2544
+    },
+    "04_Braised_Yellow_and_Orange_Carrots": {
+      "vertices": 2268,
+      "triangles": 4284
+    },
+    "09_Additional_Surface_Rice": {
+      "vertices": 6240,
+      "triangles": 11520
+    },
+    "05_Slow_Cooked_Meat_Pieces": {
+      "vertices": 7272,
+      "triangles": 14024
+    },
+    "06_Torn_Meat_Fibers": {
+      "vertices": 1920,
+      "triangles": 3360
+    },
+    "07_Gelatinous_Fat_Seams": {
+      "vertices": 694,
+      "triangles": 1296
+    }
+  },
+  "triangles": 149696,
+  "version": 3,
+  "final": true
+}

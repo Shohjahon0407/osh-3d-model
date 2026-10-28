@@ -1,0 +1,14 @@
+00:01.284  blend            | Read blend: "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/archive/v4/toyosh.blend"
+MEAT_V5_ADDED 17000
+MEAT_V5_VISIBLE_INNER 1548
+Info: Saved as "toyosh.blend"
+MEAT_V5_DONE {"version": 5, "added_main_clumps": 16, "total_main_clumps": 32, "added_loose_shreds": 18, "total_loose_shreds": 36, "added_fine_frays": 60, "total_fine_frays": 180, "meat_4k_maps": "unchanged; shared original material/UV maps", "rice_grain_count": 10000, "hidden_rice_grains_simplified": 1452, "visible_inner_grains_protected": 1548, "triangles": 349700, "maximum_meat_z_m": 0.06962469965219498}
+COVERAGE [{"view": "top", "exposed_core_rays": 69, "food_rays": 7255, "core_exposure_fraction": 0.009510682288077188}, {"view": "angle", "exposed_core_rays": 33, "food_rays": 6224, "core_exposure_fraction": 0.005302056555269923}, {"view": "front", "exposed_core_rays": 14, "food_rays": 3406, "core_exposure_fraction": 0.004110393423370522}, {"view": "back", "exposed_core_rays": 18, "food_rays": 3487, "core_exposure_fraction": 0.005162030398623459}, {"view": "left", "exposed_core_rays": 20, "food_rays": 3376, "core_exposure_fraction": 0.005924170616113744}, {"view": "right", "exposed_core_rays": 12, "food_rays": 3436, "core_exposure_fraction": 0.0034924330616996507}]
+Traceback (most recent call last):
+  File "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/scripts/audit_meat_quantity_v5.py", line 30, in <module>
+    assert max(v['core_exposure_fraction'] for v in coverage)<.005
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

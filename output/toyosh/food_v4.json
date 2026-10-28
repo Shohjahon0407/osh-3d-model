@@ -1,0 +1,1460 @@
+{
+  "version": 4,
+  "seed": 27102740,
+  "rice_grains": 10000,
+  "detailed_rice_grains": 7000,
+  "inner_rice_grains": 3000,
+  "adaptive_grains": 500,
+  "layers": [
+    {
+      "layer": 0,
+      "grains": 2600,
+      "depth_m": 0,
+      "triangles_per_grain": 36,
+      "attempts": 6064
+    },
+    {
+      "layer": 1,
+      "grains": 1900,
+      "depth_m": 0.00115,
+      "triangles_per_grain": 36,
+      "attempts": 8333
+    },
+    {
+      "layer": 2,
+      "grains": 1400,
+      "depth_m": 0.0023,
+      "triangles_per_grain": 36,
+      "attempts": 5037
+    },
+    {
+      "layer": 3,
+      "grains": 1400,
+      "depth_m": 0.00345,
+      "triangles_per_grain": 20,
+      "attempts": 3422
+    },
+    {
+      "layer": 4,
+      "grains": 1000,
+      "depth_m": 0.0046,
+      "triangles_per_grain": 20,
+      "attempts": 2035
+    },
+    {
+      "layer": 5,
+      "grains": 600,
+      "depth_m": 0.00575,
+      "triangles_per_grain": 20,
+      "attempts": 932
+    },
+    {
+      "layer": "edge",
+      "grains": 600,
+      "triangles_per_grain": 36
+    }
+  ],
+  "carrots": [
+    {
+      "center": [
+        0.036532146389343205,
+        0.047320126838969856
+      ],
+      "length_m": 0.019703916824790516,
+      "width_m": 0.00607135473791197,
+      "thickness_m": 0.002997075791374092,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.0166683688097028,
+        0.005976506161527835
+      ],
+      "length_m": 0.031364981374435316,
+      "width_m": 0.006893003811877252,
+      "thickness_m": 0.002520394156041587,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.10290020284008304,
+        -0.02187139838747267
+      ],
+      "length_m": 0.027176861153923433,
+      "width_m": 0.005957510362480203,
+      "thickness_m": 0.002347076444262094,
+      "material": 0
+    },
+    {
+      "center": [
+        0.07158824679267962,
+        -0.05977461519238441
+      ],
+      "length_m": 0.024631047081284333,
+      "width_m": 0.006058280695725151,
+      "thickness_m": 0.0026574083729218683,
+      "material": 0
+    },
+    {
+      "center": [
+        0.023363902574192123,
+        -0.09049486840067499
+      ],
+      "length_m": 0.030709268010484406,
+      "width_m": 0.005737223523892597,
+      "thickness_m": 0.003694769253423977,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.024686267602224116,
+        0.06867706519693888
+      ],
+      "length_m": 0.031778339761527344,
+      "width_m": 0.005641394179731646,
+      "thickness_m": 0.0035496238353090433,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.055268618830015916,
+        0.03781256057496959
+      ],
+      "length_m": 0.034932312489819636,
+      "width_m": 0.0032314746403207546,
+      "thickness_m": 0.0028471231679830554,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.058799774152270765,
+        -0.019799297767650336
+      ],
+      "length_m": 0.024495081207238166,
+      "width_m": 0.005594797910727369,
+      "thickness_m": 0.0028244726874497197,
+      "material": 1
+    },
+    {
+      "center": [
+        0.09020468336230113,
+        -0.01969675354746133
+      ],
+      "length_m": 0.013936112433028672,
+      "width_m": 0.005432738947029599,
+      "thickness_m": 0.002805196098172061,
+      "material": 1
+    },
+    {
+      "center": [
+        0.08309034431218262,
+        -0.01862529310678007
+      ],
+      "length_m": 0.020497788005478242,
+      "width_m": 0.004628652077186629,
+      "thickness_m": 0.002274999479745573,
+      "material": 2
+    },
+    {
+      "center": [
+        0.02373283047857701,
+        0.09092956434943142
+      ],
+      "length_m": 0.028474830354230103,
+      "width_m": 0.003408050361200753,
+      "thickness_m": 0.002917009035414142,
+      "material": 1
+    },
+    {
+      "center": [
+        0.018058552306825345,
+        0.1018373878842028
+      ],
+      "length_m": 0.0357304507465782,
+      "width_m": 0.004669777796434477,
+      "thickness_m": 0.003959952402934926,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.06813211387349768,
+        -0.004153778091883048
+      ],
+      "length_m": 0.01550105559731197,
+      "width_m": 0.005086184793141262,
+      "thickness_m": 0.003791255103987325,
+      "material": 0
+    },
+    {
+      "center": [
+        0.01935403592788629,
+        -0.05249521526896982
+      ],
+      "length_m": 0.026835082696778888,
+      "width_m": 0.004674944363546591,
+      "thickness_m": 0.0031640351098228088,
+      "material": 1
+    },
+    {
+      "center": [
+        0.109067235360339,
+        0.015833882483373755
+      ],
+      "length_m": 0.015944141023633257,
+      "width_m": 0.005665983132530994,
+      "thickness_m": 0.0029042635832099203,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.04410295476733208,
+        0.05056349616249559
+      ],
+      "length_m": 0.018411864337926905,
+      "width_m": 0.0031071767314143008,
+      "thickness_m": 0.002702942878139808,
+      "material": 1
+    },
+    {
+      "center": [
+        0.08162649845513532,
+        -0.06436365421225533
+      ],
+      "length_m": 0.028289456545218628,
+      "width_m": 0.0032480097991287073,
+      "thickness_m": 0.003026939129672222,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.07144779565414479,
+        0.010707187340287166
+      ],
+      "length_m": 0.015627119376768733,
+      "width_m": 0.005838039679528475,
+      "thickness_m": 0.003430205144246171,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.0058817120520020544,
+        -0.1004113384052255
+      ],
+      "length_m": 0.012134938875487042,
+      "width_m": 0.0034826401530842215,
+      "thickness_m": 0.0028599358901697756,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.02534082874243306,
+        0.032215389149044496
+      ],
+      "length_m": 0.022721784412307253,
+      "width_m": 0.00608961272718428,
+      "thickness_m": 0.0028138340579629325,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.021959446404857693,
+        -0.013681002854614344
+      ],
+      "length_m": 0.020386582522345778,
+      "width_m": 0.004056499088325561,
+      "thickness_m": 0.002540859950977525,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.08538076118282767,
+        -0.03396833442540828
+      ],
+      "length_m": 0.025281615697512336,
+      "width_m": 0.00652174617866349,
+      "thickness_m": 0.003729571606270126,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.07113371925619691,
+        -0.03937000117218918
+      ],
+      "length_m": 0.031417011464105936,
+      "width_m": 0.004445945135146463,
+      "thickness_m": 0.002314612980304394,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.1024748572650992,
+        0.00015272022186619717
+      ],
+      "length_m": 0.029707398262708032,
+      "width_m": 0.00645776154392613,
+      "thickness_m": 0.003754571360857827,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.009532340681979324,
+        0.011395399733695038
+      ],
+      "length_m": 0.035219577115888495,
+      "width_m": 0.006968684030420444,
+      "thickness_m": 0.003340521966098217,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.054184209235006345,
+        0.08625215629406867
+      ],
+      "length_m": 0.02394850377949223,
+      "width_m": 0.004437716941215325,
+      "thickness_m": 0.0029095537003334827,
+      "material": 0
+    },
+    {
+      "center": [
+        0.08042346148343889,
+        -0.010701738499554225
+      ],
+      "length_m": 0.014898291872376734,
+      "width_m": 0.006193295272762109,
+      "thickness_m": 0.0033341204390937977,
+      "material": 0
+    },
+    {
+      "center": [
+        0.10823309998106717,
+        0.011823465182714495
+      ],
+      "length_m": 0.030046196806307504,
+      "width_m": 0.006549217483261784,
+      "thickness_m": 0.002666676668914433,
+      "material": 0
+    },
+    {
+      "center": [
+        0.012729668977010548,
+        -0.05406929963953973
+      ],
+      "length_m": 0.038816719964343493,
+      "width_m": 0.003515355579015419,
+      "thickness_m": 0.002456925078672352,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.056974588487792736,
+        0.021028599486187082
+      ],
+      "length_m": 0.021203327530183752,
+      "width_m": 0.006415328486371727,
+      "thickness_m": 0.003628775579791692,
+      "material": 0
+    },
+    {
+      "center": [
+        0.06813461739733437,
+        -0.05863228781086386
+      ],
+      "length_m": 0.02245857907675366,
+      "width_m": 0.005794516026658633,
+      "thickness_m": 0.0023908273692296433,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.021099019593681982,
+        -0.06514778325626662
+      ],
+      "length_m": 0.018570018297502208,
+      "width_m": 0.003941987765560564,
+      "thickness_m": 0.002473104309644544,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.00014401512602276462,
+        0.03662005513756789
+      ],
+      "length_m": 0.01592954977704519,
+      "width_m": 0.004242998652642231,
+      "thickness_m": 0.0020398717581962037,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.05732818604515127,
+        0.002265600810267762
+      ],
+      "length_m": 0.02460931232241955,
+      "width_m": 0.005085036430317384,
+      "thickness_m": 0.0029069911046302817,
+      "material": 1
+    },
+    {
+      "center": [
+        0.05297535548796282,
+        -0.05589159352773123
+      ],
+      "length_m": 0.03615685307816135,
+      "width_m": 0.004012571154450058,
+      "thickness_m": 0.0030640997545142937,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.05954670896558549,
+        0.04417335176789169
+      ],
+      "length_m": 0.03751987451724137,
+      "width_m": 0.0031496451334627543,
+      "thickness_m": 0.002618971470434282,
+      "material": 1
+    },
+    {
+      "center": [
+        0.06332491249974523,
+        -0.0712925679484009
+      ],
+      "length_m": 0.0256278286454779,
+      "width_m": 0.004065835387743721,
+      "thickness_m": 0.002897269895715638,
+      "material": 0
+    },
+    {
+      "center": [
+        0.04774428206445977,
+        -0.00490906950858652
+      ],
+      "length_m": 0.0193093229939388,
+      "width_m": 0.006422239914900185,
+      "thickness_m": 0.0034838976939865277,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.03493865045072782,
+        -0.07875899695015069
+      ],
+      "length_m": 0.03496771483051507,
+      "width_m": 0.0046698406088863526,
+      "thickness_m": 0.0022033661598457625,
+      "material": 0
+    },
+    {
+      "center": [
+        0.03773302444013366,
+        0.026848206121256508
+      ],
+      "length_m": 0.02635155922933207,
+      "width_m": 0.004582482917826247,
+      "thickness_m": 0.003944651516972184,
+      "material": 0
+    },
+    {
+      "center": [
+        0.09142315410207251,
+        -0.04257920295818453
+      ],
+      "length_m": 0.015526709798894773,
+      "width_m": 0.006916922673804913,
+      "thickness_m": 0.0032740857530279325,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.07761516051049339,
+        -0.07390087163943061
+      ],
+      "length_m": 0.022168956361848315,
+      "width_m": 0.003997759622827487,
+      "thickness_m": 0.002524953480761856,
+      "material": 0
+    },
+    {
+      "center": [
+        0.009077008579824986,
+        0.025830361127693234
+      ],
+      "length_m": 0.025405424667883324,
+      "width_m": 0.003700226915499533,
+      "thickness_m": 0.0035059835066496075,
+      "material": 2
+    },
+    {
+      "center": [
+        0.0911672550497791,
+        0.004719251613140092
+      ],
+      "length_m": 0.029794358683025973,
+      "width_m": 0.003417432622044975,
+      "thickness_m": 0.0024407655474380165,
+      "material": 0
+    },
+    {
+      "center": [
+        0.02800372333312064,
+        -0.0799369766798246
+      ],
+      "length_m": 0.03915511420438024,
+      "width_m": 0.004975018540737607,
+      "thickness_m": 0.0037626435200385625,
+      "material": 0
+    },
+    {
+      "center": [
+        0.02120106291189484,
+        0.02907463503289184
+      ],
+      "length_m": 0.02585350375916398,
+      "width_m": 0.0037015026197897254,
+      "thickness_m": 0.0029886596934220492,
+      "material": 0
+    },
+    {
+      "center": [
+        0.05908205880515963,
+        -0.049308237451796084
+      ],
+      "length_m": 0.026873598267952888,
+      "width_m": 0.00402004391427235,
+      "thickness_m": 0.0036684074589399592,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.05560152571465294,
+        0.04933452495758871
+      ],
+      "length_m": 0.03706767841456224,
+      "width_m": 0.005442997589511324,
+      "thickness_m": 0.0029000367177677453,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.031677605555156245,
+        0.07304186539316336
+      ],
+      "length_m": 0.03872538463184809,
+      "width_m": 0.003872923553805729,
+      "thickness_m": 0.003571753452810028,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.03127392952598305,
+        -0.0009585085635865728
+      ],
+      "length_m": 0.0318877120092884,
+      "width_m": 0.0037891547232507365,
+      "thickness_m": 0.002083951657246802,
+      "material": 1
+    },
+    {
+      "center": [
+        0.0069403483129579484,
+        -0.09286985861748104
+      ],
+      "length_m": 0.027565187560430526,
+      "width_m": 0.003756903451857587,
+      "thickness_m": 0.002751161330324578,
+      "material": 0
+    },
+    {
+      "center": [
+        0.05823377710216341,
+        -0.004652743667881681
+      ],
+      "length_m": 0.03219810787110319,
+      "width_m": 0.005694943456786828,
+      "thickness_m": 0.0036859597249026136,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.10272701470443525,
+        -0.020857658280460097
+      ],
+      "length_m": 0.02304840204245758,
+      "width_m": 0.003538600717233967,
+      "thickness_m": 0.002208535310656733,
+      "material": 1
+    },
+    {
+      "center": [
+        0.04911571901112518,
+        0.026890746778240566
+      ],
+      "length_m": 0.027092730520120366,
+      "width_m": 0.004716510299141091,
+      "thickness_m": 0.0020728200601078145,
+      "material": 0
+    },
+    {
+      "center": [
+        0.03642203830839367,
+        -0.08600297021295894
+      ],
+      "length_m": 0.02788917412000276,
+      "width_m": 0.006312844889280614,
+      "thickness_m": 0.003910496458142046,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.02252668825199853,
+        -0.07513077300942761
+      ],
+      "length_m": 0.023824104026000277,
+      "width_m": 0.00421452928584654,
+      "thickness_m": 0.0024844235066526065,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.08691198171622615,
+        0.04026612758023737
+      ],
+      "length_m": 0.016609941394505688,
+      "width_m": 0.005252148244321573,
+      "thickness_m": 0.0023908847881309236,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.06856131975445681,
+        0.07417697480025222
+      ],
+      "length_m": 0.01816400980326066,
+      "width_m": 0.003567580181741751,
+      "thickness_m": 0.0037541221018367833,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.06035999042621254,
+        0.06190157717544388
+      ],
+      "length_m": 0.015077595705147908,
+      "width_m": 0.005277237160685505,
+      "thickness_m": 0.002710630911698079,
+      "material": 1
+    },
+    {
+      "center": [
+        0.06094031379849354,
+        -0.03719383723313576
+      ],
+      "length_m": 0.012608901861575919,
+      "width_m": 0.006901206076644205,
+      "thickness_m": 0.003697353349874252,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.0031454668510463124,
+        -0.03295061793564496
+      ],
+      "length_m": 0.035712006052480705,
+      "width_m": 0.004595288436498847,
+      "thickness_m": 0.0026174172421898297,
+      "material": 1
+    },
+    {
+      "center": [
+        0.04066376930608244,
+        -0.03850670157691818
+      ],
+      "length_m": 0.023416674738728875,
+      "width_m": 0.006606055984345587,
+      "thickness_m": 0.0021181513091995544,
+      "material": 0
+    },
+    {
+      "center": [
+        0.007061950697641722,
+        0.010127817217944791
+      ],
+      "length_m": 0.028111265569090275,
+      "width_m": 0.004164878575760154,
+      "thickness_m": 0.0025469098866081133,
+      "material": 0
+    },
+    {
+      "center": [
+        0.0206331831158855,
+        0.09704549980666306
+      ],
+      "length_m": 0.015558992663513096,
+      "width_m": 0.005714855953331228,
+      "thickness_m": 0.0036928576345831056,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.044852846474432086,
+        -0.027739707269793353
+      ],
+      "length_m": 0.036890372354290255,
+      "width_m": 0.005307186360516601,
+      "thickness_m": 0.002290888936146751,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.0658053741676251,
+        0.02076307353013761
+      ],
+      "length_m": 0.030475928518334267,
+      "width_m": 0.005853306874966383,
+      "thickness_m": 0.002170677904915598,
+      "material": 0
+    },
+    {
+      "center": [
+        0.03525003066248914,
+        0.07842675528288214
+      ],
+      "length_m": 0.01353921832931593,
+      "width_m": 0.005135963188593948,
+      "thickness_m": 0.0034586115913418374,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.08874400214844326,
+        -0.03906363235418107
+      ],
+      "length_m": 0.028377737123764832,
+      "width_m": 0.006852926013308442,
+      "thickness_m": 0.0034119253318802218,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.03802751236946582,
+        0.019461432054163865
+      ],
+      "length_m": 0.02707888330437254,
+      "width_m": 0.006721383360317568,
+      "thickness_m": 0.0037244174058297247,
+      "material": 0
+    },
+    {
+      "center": [
+        0.08034270534905204,
+        0.030052478229881007
+      ],
+      "length_m": 0.027571894000275307,
+      "width_m": 0.0051684171600439475,
+      "thickness_m": 0.002757240997782285,
+      "material": 1
+    },
+    {
+      "center": [
+        0.05599270610640276,
+        -0.0025319068354674678
+      ],
+      "length_m": 0.017407625159794562,
+      "width_m": 0.00626394190079191,
+      "thickness_m": 0.0034879189745219206,
+      "material": 2
+    },
+    {
+      "center": [
+        0.054269402381573247,
+        0.052431790992874754
+      ],
+      "length_m": 0.03940876189501746,
+      "width_m": 0.0057375542584487595,
+      "thickness_m": 0.003331096788498362,
+      "material": 0
+    },
+    {
+      "center": [
+        0.04140145490986765,
+        -0.03207175442491453
+      ],
+      "length_m": 0.03170099929442667,
+      "width_m": 0.0036708851552366764,
+      "thickness_m": 0.002659464800898033,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.07498805057917159,
+        -0.02787490932812567
+      ],
+      "length_m": 0.03445850635076815,
+      "width_m": 0.00581905838252742,
+      "thickness_m": 0.0027444498263289453,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.08864250558913489,
+        -0.04564456452151852
+      ],
+      "length_m": 0.02719584163906454,
+      "width_m": 0.0059762402330686285,
+      "thickness_m": 0.0038507678358506124,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.08205344688142813,
+        -0.07169503668001517
+      ],
+      "length_m": 0.013944031238119797,
+      "width_m": 0.0036677638892836334,
+      "thickness_m": 0.0021757332210329047,
+      "material": 2
+    },
+    {
+      "center": [
+        0.054367201041756213,
+        0.045863347404536896
+      ],
+      "length_m": 0.02336563637787111,
+      "width_m": 0.004837649986928979,
+      "thickness_m": 0.0022497989079908087,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.02136476751776585,
+        -0.025386784032859468
+      ],
+      "length_m": 0.02877444433163999,
+      "width_m": 0.0034458001691642843,
+      "thickness_m": 0.0021421310217672697,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.046726676805100634,
+        0.030970969836066422
+      ],
+      "length_m": 0.0267836942449428,
+      "width_m": 0.0052301961649259075,
+      "thickness_m": 0.002182211668317258,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.07549171284762106,
+        -0.03551264656967234
+      ],
+      "length_m": 0.03200919038969845,
+      "width_m": 0.006497009142280307,
+      "thickness_m": 0.002426250673850318,
+      "material": 0
+    },
+    {
+      "center": [
+        -0.05702857705446688,
+        -0.010267373977677796
+      ],
+      "length_m": 0.038664860183521936,
+      "width_m": 0.005889452842112702,
+      "thickness_m": 0.00215852921994617,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.023951012516238847,
+        0.00433750819460437
+      ],
+      "length_m": 0.026285737576104265,
+      "width_m": 0.0040263792677618275,
+      "thickness_m": 0.003358148052516173,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.049801118127574366,
+        -0.07870154605704266
+      ],
+      "length_m": 0.022394239445685235,
+      "width_m": 0.004401487796055701,
+      "thickness_m": 0.0034572362654920197,
+      "material": 2
+    },
+    {
+      "center": [
+        -0.026072473369523855,
+        -0.032706695363766684
+      ],
+      "length_m": 0.016841922727800884,
+      "width_m": 0.0030994876819243743,
+      "thickness_m": 0.003847042348090021,
+      "material": 0
+    },
+    {
+      "center": [
+        0.005508826309452643,
+        0.09234484121205722
+      ],
+      "length_m": 0.03737241070384621,
+      "width_m": 0.006619410200444728,
+      "thickness_m": 0.003362400699355666,
+      "material": 0
+    },
+    {
+      "center": [
+        0.04615086225843272,
+        0.049900866302078246
+      ],
+      "length_m": 0.013854474028919987,
+      "width_m": 0.006459248110134812,
+      "thickness_m": 0.002353540218749735,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.0002779984030488948,
+        0.051492154675720034
+      ],
+      "length_m": 0.03234944570578059,
+      "width_m": 0.004855066610472317,
+      "thickness_m": 0.0027856755714194825,
+      "material": 1
+    },
+    {
+      "center": [
+        -0.007970737637540908,
+        -0.07130635566796294
+      ],
+      "length_m": 0.03361076012941652,
+      "width_m": 0.00422226457382488,
+      "thickness_m": 0.0023733888473504174,
+      "material": 0
+    },
+    {
+      "center": [
+        0.0963488529606269,
+        -0.04853854792542434
+      ],
+      "length_m": 0.019960136064658254,
+      "width_m": 0.005513883312204789,
+      "thickness_m": 0.002674440989391508,
+      "material": 0
+    },
+    {
+      "center": [
+        0.03308433173977752,
+        -0.0436349363768812
+      ],
+      "length_m": 0.029825352370128844,
+      "width_m": 0.004861275093581627,
+      "thickness_m": 0.0028064948808728075,
+      "material": 1
+    }
+  ],
+  "carrot_count": 90,
+  "triangles": 348892,
+  "triangle_budget": 350000,
+  "file_budget_mib": 35,
+  "meat_shape_preserved": true,
+  "meat_max_rigid_translation_error_m": 0.0,
+  "meat_topology_and_uv_preserved": true,
+  "meat_group_placement": [
+    {
+      "group": 9,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.0049128142923116685,
+      "contacts": 9,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 7,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.005117403510212898,
+      "contacts": 9,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 12,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.004646355453133583,
+      "contacts": 4,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 11,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.0038170350521802903,
+      "contacts": 5,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 13,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.0044033380031585695,
+      "contacts": 5,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 10,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.006582677531242371,
+      "contacts": 6,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 8,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.009032363238930701,
+      "contacts": 11,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 15,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.004274778234958649,
+      "contacts": 8,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 6,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.009165935385227203,
+      "contacts": 14,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 5,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.005545370447635651,
+      "contacts": 5,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 1,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.007726572620868683,
+      "contacts": 34,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 0,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.007247276771068573,
+      "contacts": 13,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 3,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.00927314178943634,
+      "contacts": 18,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 2,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.011158943343162536,
+      "contacts": 17,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 4,
+      "kind": "muscle_root",
+      "vertical_translation_m": 0.00969992594718933,
+      "contacts": 11,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 14,
+      "kind": "muscle_root",
+      "vertical_translation_m": -0.007740616631507873,
+      "contacts": 9,
+      "soft_embedding_m": 0.00045,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 16,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.0064115610980987545,
+      "contacts": 1,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 17,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.007446856524944305,
+      "contacts": 4,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 18,
+      "kind": "loose_shred",
+      "vertical_translation_m": -0.0005893695092201233,
+      "contacts": 2,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 19,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.00874301913022995,
+      "contacts": 4,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 20,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.005246334996223449,
+      "contacts": 2,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 21,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.0007234600448608399,
+      "contacts": 1,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 22,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.00829523178577423,
+      "contacts": 4,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 23,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.005911241572499275,
+      "contacts": 1,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 24,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.006693595376014709,
+      "contacts": 3,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 25,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.006165459107756614,
+      "contacts": 3,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 26,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.004968813907504081,
+      "contacts": 4,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 27,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.0030470353627204895,
+      "contacts": 6,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 28,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.008544788982868194,
+      "contacts": 3,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 29,
+      "kind": "loose_shred",
+      "vertical_translation_m": -0.0017870726919174194,
+      "contacts": 7,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 30,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.008270533111095428,
+      "contacts": 2,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 31,
+      "kind": "loose_shred",
+      "vertical_translation_m": -0.0049740361905097966,
+      "contacts": 5,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 32,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.010715778272747993,
+      "contacts": 1,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    },
+    {
+      "group": 33,
+      "kind": "loose_shred",
+      "vertical_translation_m": 0.0031997182482481003,
+      "contacts": 1,
+      "soft_embedding_m": 0.00016,
+      "support": "rice/carrot or substantial muscle root"
+    }
+  ],
+  "garnish_vertical_translations_m": [
+    0.008886357933282851,
+    0.008421756491065024,
+    0.010241205036640166,
+    0.009071344673633575,
+    0.0064727702885866165,
+    0.009569730773568152,
+    0.007761167526245117,
+    0.006833706215023994,
+    0.009386988520622253,
+    0.00648966820538044,
+    0.008505538269877433,
+    0.009199170559644698,
+    0.009777287185192107,
+    0.008245190769433974,
+    0.006017252966761589,
+    0.006834693416953087,
+    0.009667711496353149,
+    0.004481817856431008,
+    0.005892194136977196,
+    0.006446589976549149,
+    0.011519831456243992,
+    0.005894393920898438,
+    0.006945581436157227,
+    0.009069518446922302,
+    0.009143178611993789,
+    -0.0002795584499835968,
+    0.008265846259891987,
+    0.003308975398540497,
+    0.008156237453222274,
+    0.0061472545564174655,
+    0.009030344262719155,
+    0.005189732015132904,
+    0.01032887801527977,
+    0.006225502416491509,
+    0.009689497128129006,
+    0.010261468887329102,
+    0.010626226961612702,
+    0.00798755168914795,
+    0.011668568775057793,
+    0.006000198721885681,
+    0.0073930232971906665,
+    0.0061478915810585025,
+    0.008915661200881005,
+    0.008097982332110405,
+    0.007679816633462906,
+    0.007692745253443718,
+    0.0076013518869876865,
+    0.007571224421262741,
+    0.0008935335278511048,
+    0.007003391459584236,
+    0.0033613613992929457,
+    0.008299881890416146,
+    0.0004904235899448395
+  ],
+  "coverage_before": [
+    {
+      "view": "top",
+      "food_rays": 7247,
+      "exposed_core_rays": 200,
+      "core_exposure_fraction": 0.027597626604112045
+    },
+    {
+      "view": "angle",
+      "food_rays": 6210,
+      "exposed_core_rays": 119,
+      "core_exposure_fraction": 0.019162640901771336
+    },
+    {
+      "view": "front_low",
+      "food_rays": 3347,
+      "exposed_core_rays": 102,
+      "core_exposure_fraction": 0.030475052285628922
+    },
+    {
+      "view": "back_low",
+      "food_rays": 3320,
+      "exposed_core_rays": 115,
+      "core_exposure_fraction": 0.03463855421686747
+    },
+    {
+      "view": "left_low",
+      "food_rays": 3244,
+      "exposed_core_rays": 122,
+      "core_exposure_fraction": 0.0376078914919852
+    },
+    {
+      "view": "right_low",
+      "food_rays": 3224,
+      "exposed_core_rays": 94,
+      "core_exposure_fraction": 0.02915632754342432
+    }
+  ],
+  "coverage_after": [
+    {
+      "view": "top",
+      "food_rays": 14864,
+      "exposed_core_rays": 2,
+      "core_exposure_fraction": 0.00013455328310010763
+    },
+    {
+      "view": "angle",
+      "food_rays": 12762,
+      "exposed_core_rays": 2,
+      "core_exposure_fraction": 0.0001567152483936687
+    },
+    {
+      "view": "front_low",
+      "food_rays": 6890,
+      "exposed_core_rays": 7,
+      "core_exposure_fraction": 0.0010159651669085631
+    },
+    {
+      "view": "back_low",
+      "food_rays": 6791,
+      "exposed_core_rays": 4,
+      "core_exposure_fraction": 0.0005890148726255338
+    },
+    {
+      "view": "left_low",
+      "food_rays": 6675,
+      "exposed_core_rays": 6,
+      "core_exposure_fraction": 0.0008988764044943821
+    },
+    {
+      "view": "right_low",
+      "food_rays": 6665,
+      "exposed_core_rays": 6,
+      "core_exposure_fraction": 0.000900225056264066
+    }
+  ],
+  "maximum_core_exposure_fraction": 0.0010159651669085631,
+  "grain_dimensions_m": {
+    "length": [
+      0.006,
+      0.008
+    ],
+    "width": [
+      0.0018,
+      0.0025
+    ],
+    "thickness": [
+      0.0013,
+      0.002
+    ]
+  },
+  "new_material_max_texture_dimension": 1024,
+  "physics_method": "Deterministic multilayer packing, plate clearance, carrot interleaving and static root-footprint contact fitting; no dynamic simulation.",
+  "coverage_refinement": {
+    "translated_grains": 996,
+    "history": [
+      {
+        "iteration": 0,
+        "resolution": 112,
+        "maximum_core_exposure": 0.008631319358816275,
+        "core_rays": [
+          24,
+          35,
+          23,
+          27,
+          28,
+          21
+        ]
+      },
+      {
+        "iteration": 1,
+        "resolution": 112,
+        "maximum_core_exposure": 0.0012044564890093346,
+        "core_rays": [
+          0,
+          0,
+          1,
+          4,
+          2,
+          0
+        ]
+      },
+      {
+        "iteration": 2,
+        "resolution": 112,
+        "maximum_core_exposure": 0.0009033423667570009,
+        "core_rays": [
+          0,
+          0,
+          1,
+          3,
+          1,
+          0
+        ]
+      },
+      {
+        "iteration": 3,
+        "resolution": 160,
+        "maximum_core_exposure": 0.02268596432177718,
+        "core_rays": [
+          337,
+          166,
+          84,
+          99,
+          86,
+          90
+        ]
+      },
+      {
+        "iteration": 4,
+        "resolution": 160,
+        "maximum_core_exposure": 0.0010159651669085631,
+        "core_rays": [
+          2,
+          2,
+          7,
+          4,
+          6,
+          6
+        ]
+      }
+    ],
+    "final_scan_resolution": 160
+  },
+  "finish": "Predominantly cooked yellow/golden carrots; rice roughness .24-.43 with a light oil coat."
+}

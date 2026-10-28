@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "triangles": 149136,
+  "attached_fibers": 360,
+  "pieces": [
+    {
+      "piece": 0,
+      "fiber_direction": [
+        -0.8075381517410278,
+        0.5898153185844421
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 1,
+      "fiber_direction": [
+        -0.9947073459625244,
+        -0.1027485802769661
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 2,
+      "fiber_direction": [
+        0.6512740254402161,
+        0.7588426470756531
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 3,
+      "fiber_direction": [
+        0.19036418199539185,
+        0.9817135334014893
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 4,
+      "fiber_direction": [
+        0.40076225996017456,
+        0.9161821007728577
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 5,
+      "fiber_direction": [
+        -0.7571209669113159,
+        0.6532747149467468
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 6,
+      "fiber_direction": [
+        -0.8543497323989868,
+        0.519698441028595
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 7,
+      "fiber_direction": [
+        -0.09060518443584442,
+        0.9958868622779846
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 8,
+      "fiber_direction": [
+        -0.2928854525089264,
+        0.9561475515365601
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 9,
+      "fiber_direction": [
+        0.23134630918502808,
+        0.9728714823722839
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 10,
+      "fiber_direction": [
+        -0.31626683473587036,
+        0.9486702680587769
+      ],
+      "attached_fibers": 30
+    },
+    {
+      "piece": 11,
+      "fiber_direction": [
+        0.022200359031558037,
+        0.9997535347938538
+      ],
+      "attached_fibers": 30
+    }
+  ],
+  "non_meat_parts_unchanged": true,
+  "maps": [
+    "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/textures/cooked_meat_4k_basecolor.jpg",
+    "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/textures/cooked_meat_4k_normal.png",
+    "/home/shohjahon/MARKETPLACE/5kashtan/3dview_generator/output/toyosh/textures/cooked_meat_4k_orm.png"
+  ],
+  "finish": {
+    "color_saturation": 0.84,
+    "color_brightness": 0.95,
+    "roughness_multiplier": 0.78,
+    "coat_weight": 0.3,
+    "normal_strength": 0.4
+  }
+}

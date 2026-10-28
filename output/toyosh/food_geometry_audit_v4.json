@@ -1,0 +1,42 @@
+{
+  "rice_grains": 10000,
+  "components": {
+    "03_Individual_Long_Grain_Rice": 6500,
+    "09_Additional_Surface_Rice": 3000,
+    "10_Rice_Gap_Fill": 500,
+    "04_Braised_Yellow_and_Orange_Carrots": 90
+  },
+  "maximum_plate_penetration_m": 2.674199640750885e-05,
+  "worst_plate_point": {
+    "object": "03_Individual_Long_Grain_Rice",
+    "position": [
+      -0.05422797054052353,
+      -0.10174521803855896,
+      0.0105318333953619
+    ]
+  },
+  "grain_centers_inside_carrot_vertical_envelope": 4,
+  "carrot_envelope_note": "Conservative union of top/bottom rays; overlapping carrots can give false positive center classifications.",
+  "center_samples": [
+    {
+      "object": "03_Individual_Long_Grain_Rice",
+      "grain": 2990,
+      "depth_m": 0.0016411710530519485
+    },
+    {
+      "object": "03_Individual_Long_Grain_Rice",
+      "grain": 5908,
+      "depth_m": 0.0013191662728786469
+    },
+    {
+      "object": "03_Individual_Long_Grain_Rice",
+      "grain": 6050,
+      "depth_m": 0.001608060672879219
+    },
+    {
+      "object": "03_Individual_Long_Grain_Rice",
+      "grain": 6161,
+      "depth_m": 0.0012504477053880692
+    }
+  ]
+}
